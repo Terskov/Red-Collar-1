@@ -1,0 +1,176 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    display: flex;
+    background-color:black;
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .left {
+        margin-left: 30px;
+    }
+
+    .right {
+        display: block;
+        .text {
+            margin: 20px;
+        }
+        .skills_step {
+            margin-right: 10px;
+        }
+
+    }
+
+}
+
+#photo1 {
+    max-width: 322px;
+}
+
+div {
+    color: white;
+}
+
+.contacts {
+    margin: 40px 0px 0px 24px;
+}
+
+.left {
+    margin: 40px 30px 0px 40px;
+    background-color: rgb(254, 46, 34);
+}
+
+#Union {
+    position: relative;
+    bottom: 413px;
+    right: 20px;
+}
+
+#Maska {
+    position: relative;
+    bottom: 600px;
+    left: 84px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.age {
+    font-size: 24px;
+    margin-bottom: 20px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts_images {
+    margin: 20px 11px 0 0;
+}
+
+.phone {
+    font-size: 24px;
+}
+
+.mail {
+    font-size: 24px;
+}
+
+.telegram {
+    font-size: 24px;
+}
+
+.github {
+    font-size: 24px;
+}
+
+.right_border {
+    border: 1px solid white;
+    padding: 48px 50px 130px 28px;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+#logo_id {
+    margin: 28px 40px 0 0;
+}
+
+.text {
+    margin: 58px 76px 32px 0;
+    
+}
+
+.places {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.places_clarification {
+    font-size: 14px;
+    margin-bottom: 7px;
+    color: gray;
+}
+
+.places_years {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+#minititles_id2 {
+    margin: 20px 0 20px 0;
+}
+
+#minititles_id {
+    margin-bottom: 20px;
+}
+
+.title {
+    min-width: 196px;
+    font-size: 20px;
+}
+
+.education_career {
+    display: flex;
+}
+
+#career_id {
+    margin-top: 20px;
+}
+
+#skills_id {
+    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+}
+
+.minititles_skills {
+    display: flex;
+}
+
+.skills_step {
+    margin: 20px 32px 0 0;
+}
+
+.line {
+    border-bottom: 1px solid grey;
+}
